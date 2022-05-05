@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/bg1.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.bg1{
+  position: absolute;
+  
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 108.74vh;
+  margin-top: -1.76cm;
+  z-index: -1;
+}
+
+
+
+.navbar nav{
+  position:static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  padding: 10px 90px;
+  padding-bottom: 1px;
+  box-sizing: border-box;
+  background: rgba(235, 159, 136, 0.6);
+  border-bottom: 1px solid #fff;
+ 
+  
+  
+}
+
+.navbar nav .logo img{
+  padding: 2px 2px;
+  height: 70px;
+  float: left;
+  
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:black;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.navbar nav ul{
+  list-style: none;
+  margin: 0;
+  padding: -5px;
+  padding-left: 520px;
+  display: flex;
+}
+
+.navbar nav ul li a{
+  line-height: 80px;
+  color:black;
+  padding: 12px 30px;
+  text-decoration:none;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+.navbar nav ul li a::before{
+background: blue;
+transition: .5s;
+transform: scale(.9);
+z-index: -1;
+}
+
+.navbar nav ul li a:hover::before{
+transform: scale(1.1);
+
+}
+
+
+.navbar nav ul li a:hover{
+
+border-radius: 6px;
+color:white;
+transition: 0.5s;
+text-shadow: 0 0 5px lightblue;
+}
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  margin-top: 2cm;
+  margin-right: -2cm;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 20px;
+  padding: 16px 26px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Gemunu Libre', sans-serif;
+
+
+}
+
+.dropdown-content a:hover {
+
+border-radius: 10px;
+color: purple;
+transition: 0.5s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.member1{
+  display: flex;
+  padding: 190px 10px;
+}
+
+
+.member1 h1{
+  display: flex;
+  font-family: 'Gemunu Libre', sans-serif;
+  padding: 90px 90px;
+  padding-top: 20px;
+}
+
+.member1 img{
+  width: 100px;
+  height: 100px;
+
+}
+
+.fancy {
+ 
+  text-align : center;
+
+  
+  padding : 5em;
+
+  
+  width  : 4px;
+  height : 4px;
+
+ 
+}
+.fancy {
+  
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+
+  background-color: #E4E4D9;
+
+  
+  background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #e743c4 95%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #cd63d1 95%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 90%, #8f2f6a 90%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #7563c9 92%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #edc8f1 86%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 75%, #f7c3e1 75%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #d688ee 83%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 70%, #b7e8f0 70%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #f3a8bb 80%);
+}
+
+.fancy .content{
+  padding-bottom: 80px;
+  margin-top: -1cm;
+  margin-right: 5cm;
+}
+
+.description{
+  padding-right: 400px;
+  margin-left: -10cm;
+  margin-right: 18cm;
+  box-sizing: border-box;
+   
+  background-image: linear-gradient(-175deg, rgba(0,0,0,0) 95%, #eed9e9 95%),
+                    linear-gradient( -85deg, rgba(0,0,0,0) 95%, #d7b5d8 95%),
+                    linear-gradient(-175deg, rgba(0,0,0,0) 90%, #faebf4 90%),
+                    linear-gradient( -85deg, rgba(0,0,0,0) 92%, #d1cce9 92%),
+                    linear-gradient(-175deg, rgba(0,0,0,0) 85%, #d8c8bb 85%),
+                    linear-gradient( -85deg, rgba(0,0,0,0) 89%, rgb(243, 234, 226) 89%),
+                    linear-gradient(-175deg, rgba(0,0,0,0) 80%, #ebc6cb 80%),
+                    linear-gradient( -85deg, rgba(0,0,0,0) 86%, #decbe0 86%),
+                    linear-gradient(-175deg, rgba(0,0,0,0) 75%, #e7d5e0 75%),
+                    linear-gradient( -85deg, rgba(0,0,0,0) 83%, #e5d4eb 83%),
+                    linear-gradient(-175deg, rgba(0,0,0,0) 70%, #b7e8f0 70%),
+                    linear-gradient( -85deg, rgba(0,0,0,0) 80%, #ecd6dc 80%);
+}
+
+
+.googleimage .heading h1{
+  font-family: 'Gemunu Libre', sans-serif;
+  padding: 30px 30px;
+
+}
+
+
+.heading a .btn2{
+  padding: 10px 10px;
+  margin-left: 2cm;
+  margin-bottom: 5cm;
+}
+
+.heading a img{
+  width: 90px;
+  height: 90px;
+}
+  

@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/bg1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg1{
+    position: absolute;
+    
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 108.74vh;
+    margin-top: -1.76cm;
+    z-index: -1;
+}
+
+
+
+.navbar nav{
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    padding: 10px 90px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    background: rgba(235, 159, 136, 0.6);
+    border-bottom: 1px solid #fff;
+   
+    
+    
+}
+
+.navbar nav .logo img{
+    padding: 2px 2px;
+    height: 70px;
+    float: left;
+    
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.navbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: -5px;
+    padding-left: 520px;
+    display: flex;
+}
+
+.navbar nav ul li a{
+    line-height: 80px;
+    color:black;
+    padding: 12px 30px;
+    text-decoration:none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.navbar nav ul li a::before{
+  background: blue;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.navbar nav ul li a:hover::before{
+  transform: scale(1.1);
+ 
+}
+
+
+.navbar nav ul li a:hover{
+  
+  border-radius: 6px;
+  color:white;
+  transition: 0.5s;
+  text-shadow: 0 0 5px lightblue;
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 2cm;
+    margin-right: -2cm;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-size: 20px;
+    padding: 16px 26px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+
+
+  }
+  
+  .dropdown-content a:hover {
+
+  border-radius: 10px;
+  color: purple;
+  transition: 0.5s;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+ 
+
+
+
+.img1{
+    
+    width: 100%;
+    height: 10cm;
+  
+    
+
+}
+.img1 img{
+    width: 640px;
+    height: 610px;
+    padding-left: 50px;
+    object-position: 3px 30px; 
+    
+}
+
+
+.img2 img{
+    width: 800px;
+    height: 800px;
+   
+    
+    margin-left: 2in;
+    padding-left: 0.5in;
+    object-position: -14px 0.57cm;  
+      
+}
+
+
+
+.img3 img{
+    width: 500px;
+    height: 500px;
+    margin-top: -5cm;
+    margin-bottom: -3cm;
+    margin-left: 2in;
+    padding-left: 8in;
+    object-position: -14px 0.57cm;  
+    opacity: 0.6;  
+}
+
+.text1{
+    position:absolute;
+    z-index: -1;
+    padding-right:850px;
+    padding-top: 340px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color:black
+    
+    
+    
+}
+.text2{
+    margin-right: 930px;
+    padding-left: 30px;
+    padding-top: 620px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color:  black;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.bg2{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -3cm;
+    
+    
+    margin-top: 17.903cm;
+}
+
+
+.secondpage .heading {
+    padding-left: 570px;
+    padding-top: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: black;
+    font-size: xx-large;
+    
+}
+.secondpage .heading h1:hover{
+    
+    transform: scaleZ(1.4);
+    transition: 0.5s;
+    color: brown;
+}
+
+.secondpage .mission{
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.secondpage .mission h2{
+    padding: 60px;
+    color: black;
+    
+}
+
+.secondpage .priority img{
+    margin-top: -12cm;
+    margin-left: 1100px;
+}
+
+.thirdpage .bg3{
+    
+    width: 100%;
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.64vh;
+    
+}
+.thirdpage .heading2 {
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: black;  
+}
+
+.thirdpage .bg3 .community img{
+    position: relative;
+    padding-left: 95px;
+    padding-top: 38px;
+}
+
+.thirdpage .bg3 .community h2{
+    position: relative;
+    padding-left: 100px;
+    font-family: 'Gemunu Libre', sans-serif;
+
+}  
+.thirdpage .bg3 .community h3{
+    position: relative;
+    padding-left: 95px;  
+    font-family: 'Gemunu Libre', sans-serif; 
+}
+
+.thirdpage .bg3 .friend img{
+    position: relative;
+    padding-left: 585px;
+    margin-top: -170px;
+    margin-bottom: 2cm;
+    
+}
+
+.thirdpage .bg3 .friend h3{
+    position: relative;
+    padding-left: 585px;
+    margin-top: -70px;
+    margin-bottom: 2cm;
+    font-family: 'Gemunu Libre', sans-serif;
+
+}
+
+.thirdpage .bg3 .join h1{
+    position: relative;
+    padding-left: 395px;
+    margin-top: -20px;
+    margin-bottom: 2cm;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+ .thirdpage .bg3 .lastpic img{
+     position: relative;
+     width: 100px;
+     height: 100px;
+     margin-left: 30cm;
+     margin-top: -10cm;
+     margin-bottom: 5cm;
+     border-radius: 500px;
+ }
+
+
+
+ .container {
+	display: flex;
+    margin-right: -630px;
+    margin-top: 420px;
+	width: 100%;
+	height: 100%;
+    position: fixed;
+    
+    
+}
+
+
+.chat {
+	height: 300px;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+} 
+
+::-webkit-input-placeholder { 
+	color: .711 
+}
+ 
+input { 
+	border: 0; 
+	padding: 15px; 
+	margin-left: auto;
+	border-radius: 10px; 
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 70%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+#bot {
+	margin-left: auto;
+}
+
+.bot {
+	font-family: Consolas, 'Courier New', Menlo, source-code-pro, Monaco,  
+	monospace;
+}
+
+.avatar {
+	height: 25px;
+}
+
+.response {
+	display: flex;
+	align-items: center;
+	margin: 1%;
+}
+
+.container img{
+    width: 90px;
+    height: 90px;
+    margin-top: 200px;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 980px) {
+  .container {
+		flex-direction: column; 
+		justify-content: flex-start;
+	}
+	.chat {
+		width: 75vw;
+		margin: 10vw;
+	}
+}
+
+

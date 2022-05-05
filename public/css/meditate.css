@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/bg1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+.navbar nav{
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    padding: 10px 90px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    background: rgba(235, 159, 136, 0.6);
+    border-bottom: 1px solid #fff;
+    z-index: 6;
+    
+    
+    
+}
+
+.navbar nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.navbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: -5px;
+    padding-left: 520px;
+    display: flex;
+}
+
+.navbar nav ul li a{
+    line-height: 80px;
+    color:black;
+    padding: 12px 30px;
+    text-decoration:none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.navbar nav ul li a::before{
+  background: blue;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.navbar nav ul li a:hover::before{
+  transform: scale(1.1);
+ 
+}
+
+
+.navbar nav ul li a:hover{
+  
+  border-radius: 6px;
+  color:white;
+  transition: 0.5s;
+  
+  text-shadow: 0 0 5px lightblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 2cm;
+    margin-right: -2cm;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-size: 20px;
+    padding: 16px 26px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+
+  }
+  
+  .dropdown-content a:hover {
+
+  border-radius: 10px;
+  color: purple;
+  transition: 0.5s;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+
+.meditate img{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 950px;
+}
+
+.text1{
+    margin-top: -14cm;
+    padding-left: 170px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 50px;
+}
+
+
+
+.secondpage{
+   
+
+   margin-top: 16.38cm;
+   height: 110vh;
+}
+
+.secondpage h1{
+    padding: 50px 90px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 50px;
+}
+
+.videos{
+    display: flex;
+    margin-top: -1cm ;
+}
+.videos .video1{
+    padding: 1px 80px ;
+    border-radius: 3px;
+    object-fit: fill;
+}
+.videos .video1 h3{
+    padding-left: 90px;
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.videos .video2{
+    padding: 1px 140px;
+}
+.videos .video2 h3{
+    padding-left: 90px;
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.videos .video3{
+    padding: 1px 50px;
+    object-fit: cover;
+}
+.videos .video3 h3{
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.videos2{
+    display: flex;
+}
+.videos2 .video4{
+    padding: 1px 80px ;
+}
+.videos2 .video4 h3{
+    padding-left: 80px;
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.videos2 .video5{
+    padding: 1px 140px;
+}
+.videos2 .video5 h3{
+    padding-left: 100px;
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.videos2 .video6{
+    padding: 1px 50px;
+}
+.videos2 .video6 h3{
+    padding-left: 110px;
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.thirdpage{
+   
+    margin-top: 5.5px;
+    height: 100vh;
+ }
+
+ .thirdpage h1{
+    padding-top: 3cm;
+    padding-left: 71px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 50px;
+ }
+
+ .thirdpage p{
+     display: flex;
+    padding: 40px 70px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 30px;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ 
+ 
+ .container{
+   position: relative;
+   display: flex;
+ }
+ 
+ .container .card{
+   position: relative;
+   width: 220px;
+   height: 350px;
+   background: rgb(240, 140, 157);
+   border-radius: 20px;
+   overflow: hidden;
+   margin-left: 3cm;
+   margin-bottom: 2cm;
+   margin-top: -10cm;
+ }
+ 
+ .container .card:before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: peachpuff;
+   clip-path: circle(150px at 80% 20%);
+   transition: 0.5s ease-in-out;
+ }
+ 
+ .container .card:hover:before{
+   clip-path: circle(250px at 90% -10%);
+   background-color:pink;
+ }
+ 
+ .container .card:after{
+   
+   position: absolute;
+   top: 30%;
+   left: -20%;
+   font-size: 12em;
+   font-weight: 800;
+   font-style: italic;
+   color: pink;
+ }
+ 
+ .container .card .imgBx{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 10000;
+   width: 100%;
+   height: 220px;
+   transition: 0.5s;
+ }
+ 
+ .container .card:hover .imgBx{
+   top: 0%;
+   transform: translateY(0%);
+     
+ }
+ 
+ .container .card .imgBx img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(-25deg);
+   width: 270px;
+ }
+ 
+ .container .card .contentBx{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   transition: 1s;
+   z-index: 10;
+ }
+ 
+ .container .card:hover .contentBx{
+   height: 210px;
+   
+ }
+ 
+ .container .card .contentBx h2{
+   position: relative;
+   font-weight: 900;
+   font-size: 50px;
+   letter-spacing: 1px;
+   padding-left: 10px;
+   color: #000;
+   margin: 0;
+   font-family: 'Gemunu Libre', sans-serif;
+ }
+ .container .card .contentBx h3{
+   position: relative;
+   font-weight: 600;
+   font-size: 40px;
+   letter-spacing: 1px;
+   color: brown;
+   padding-left: 10px;
+   font-family: 'Gemunu Libre', sans-serif;
+ }
+ 
+ .container .card .contentBx .size, .container .card .contentBx .color {
+   
+   
+   padding: 8px 20px;
+   transition: 0.5s;opacity: 0;
+   visibility: hidden;
+   padding-top: 0;
+   padding-bottom: 0;
+ }
+ 
+ .container .card:hover .contentBx .size{
+   opacity: 1;
+   visibility: visible;
+   transition-delay: 0.5s;
+ }
+ 
+ .container .card:hover .contentBx .color{
+   opacity: 1;
+   visibility: visible;
+   transition-delay: 0.6s;
+ }
+ 
+ .container .card .contentBx .size h3, .container .card .contentBx .color h3{
+   color: black;
+   font-weight: 300;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-right: 10px;
+ }
+ 
+ .container .card .contentBx .size span{
+   width: 26px;
+   height: 26px;
+   float: right;
+   clear: right;
+   font-family: 'Gemunu Libre', sans-serif;
+   padding-right: 100px;
+   line-height: 26px;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   color: rgb(36, 33, 33);
+   
+   margin: 0 5px;
+   transition: 0.5s;
+   
+   
+   cursor: pointer;
+ }
+ 
+ .container .card .contentBx .size span:hover{
+   background: pink;
+ }
+ 
+ .container .card .contentBx .color span{
+   width: 20px;
+   height: 20px;
+   background: pink;
+   border-radius: 50%;
+   margin: 0 5px;
+   cursor: pointer;
+   display: block;
+   padding: 30px;
+ }
+ 
+ .container .card .contentBx .color span:nth-child(2){
+   background: pink;
+ }
+ 
+ 
+ .container .card .contentBx a{
+   display: inline-block;
+   padding: 10px 20px;
+   background: whitesmoke;
+   border-radius: 4px;
+   
+   text-decoration: none;
+   font-weight: 600;
+   color: #111;
+   opacity: 0;
+   transform: translateY(50px);
+   transition: 0.5s;
+   margin-top: 1.4cm;
+ }
+ 
+ .container .card:hover .contentBx a{
+   opacity: 1;
+   transform: translateY(0px);
+   transition-delay: 0.75s;
+   
+ }
